@@ -28,7 +28,7 @@ const projects = [
     modalContent: (
       <>
         <p>
-        ChamaHub.A real-time coaching app for Chama's and financial groups to manage their financial systems, 
+        ChamaHub.A real-time coaching app for Chama&apos;s and financial groups to manage their financial systems,
         This app makes me proud
         </p>
         <p>
