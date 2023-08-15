@@ -19,7 +19,7 @@ export const Projects = () => {
 const projects = [
   {
     title: "Chama Hub",
-    imgSrc: "project-imgs/chamalogo.png",
+    imgSrc: "project-imgs/chamalogo.PNG",
     code: "https://github.com/moriisaac/Chama-APP",
     projectLink: "https://chamahub.pythonanywhere.com",
     tech: ["Django", "SQLite3", "Python", "FastAPI"],
