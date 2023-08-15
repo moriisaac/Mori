@@ -36,10 +36,10 @@ const projects = [
           connected to a Python & Django backend, with data stored in Postgres,
           deployed on Pythonanywhere.
         </p>
-        <p>
-          Because this isn&apos;t real, here&apos;s some gibberish to fill space{" "}
-          {":)"}
-        </p>
+        {/*<p>*/}
+        {/*  Because this isn&apos;t real, here&apos;s some gibberish to fill space{" "}*/}
+        {/*  {":)"}*/}
+        {/*</p>*/}
         <p>
           
         </p>

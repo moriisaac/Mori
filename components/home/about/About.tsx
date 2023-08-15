@@ -21,7 +21,7 @@ export const About = () => {
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              I currently work for CargoAI and The Hot Platform (NB: Don't ask me how 🍳) . I also toss in my ¢2
+              I currently work for CargoAI and The Hot Platform (NB: Don&apos;t ask me how 🍳) . I also toss in my ¢2
               with the biology systems teams from time to time (once a biologist,
               always a biologist, amirite?).
             </p>
