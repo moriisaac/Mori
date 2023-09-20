@@ -15,11 +15,11 @@ export const Experience = () => {
 const experience = [
   {
     title: "The Hot Platform",
-    position: "Chief Technology Officer",
+    position: "Chief Information Officer and Backend Lead",
     time: "2023 - present",
     location: "Zambia",
     description:
-      "I currently Hold this position as the Chief Technology Officer and it is fun.",
+      "I currently Hold this position as the Chief Information Officer and it is fun.",
     tech: ["Team Management", "Leadership", "Time Management"],
   },
   {
@@ -52,7 +52,7 @@ const experience = [
   },
   {
     title: "Empins Travel Agency",
-    position: "Full Stack Developer",
+    position: "Full Stack Developer and Backend Lead Engineer",
     time: "2023 - present",
     location: "Kenya",
     description:
