@@ -1,88 +1,121 @@
-# YO! Welcome to the "Steam" developer portfolio template
 
-Steam is a starter template designed to help you land more interviews. Below we'll walk through exactly how you can customize this template to make it your own.
 
-Before we go too far, note that I've provided a video walkthrough of the entire project [HERE](https://youtu.be/hu-XLI3bFX8).
+# [Mori]'s Personal Website
 
-You can also find a live version of this project deployed at [https://steam-portfolio-demo.vercel.app/](https://steam-portfolio-demo.vercel.app/).
+Welcome to [Mori's personal website! This website serves as a portfolio and personal blog to showcase your expertise as a backend developer and Python engineer. Here, you can share your projects, achievements, and insights in the world of software development.
 
-## Let's get things running
+## Table of Contents
 
-This template is built on top of [NextJS](https://nextjs.org/), a full stack development framework built on top of React.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Project Setup](#project-setup)
+- [Usage](#usage)
+- [Portfolio](#portfolio)
+- [Blog](#blog)
+- [Contact](#contact)
+- [Contributing](#contributing)
+- [License](#license)
 
-We won't take time here going over exactly how NextJS works on a deep level (to be fair, this project doesn't use Next at a deep level), but if you're interested in learning, their docs are [here](https://nextjs.org/docs/getting-started).
+## Introduction
 
-At the root of your project, you'll see a `package.json` file defining our dependencies.
+This website is designed to provide visitors with insights into your professional background, skills, and the projects you've worked on as a backend developer and Python engineer. It's also a platform for sharing your thoughts and expertise through blog posts.
 
-Most of this is boilerplate, but I will call out the following three dependencies:
+## Features
 
-- `animejs` -> A javascript animation library, used for the grid animation inside of DotGrid.tsx
-- `framer-motion` -> A react based animation library, used in a hand full of places (anywhere you see `<motion.el />` style components)
-- `sass` -> All styling uses plain CSS and sass modules for this project
+### 1. Portfolio Showcase
 
-Now that's out of the way, you can get your project running by first installing dependencies.
+- Display a collection of your most significant backend development and Python engineering projects.
+- Provide detailed project descriptions, including technologies used and your role in each project.
+- Include project screenshots or live demos when available.
 
-From your terminal, run:
+### 2. Blogging Platform
 
-```
-npm install
-# or
-yarn install
-```
+- Write and publish blog posts on topics related to backend development, Python, and software engineering.
+- Categorize and tag your blog posts for easy navigation.
+- Allow visitors to leave comments and engage in discussions.
 
-This will take a minute or two, but once that's done, you should be able to run the following command:
+### 3. Contact Information
 
-```
-npm run dev
-# or
-yarn dev
-```
+- Share your professional contact information for potential collaboration and networking opportunities.
+- Include links to your social media profiles, such as LinkedIn and GitHub.
 
-This will start your project on `localhost:3000`
+### 4. Resume/CV Download
 
-## The file structure
+- Offer visitors the option to download your resume or CV to learn more about your qualifications and experience.
 
-Because this is a NextJS project, we follow the standard NextJS pattern for organizing this project.
+## Technologies Used
 
-Inside of the `pages/` directly you'll find 3 files:
+Your personal website is built using a stack of technologies that reflect your proficiency as a backend developer and Python engineer. Some of the key technologies and tools used include:
 
-- `_app.tsx` -> A file which wraps around every page in our app. Here we import the Poppins font and include it in our page. You can change to use whatever font you'd like here ([docs](https://nextjs.org/docs/basic-features/font-optimization)).
-- `_document.tsx` -> Essentially the NextJS version of your base "HTML document". Nothing fancy here.
-- `_index.tsx` -> This represents our home route. We include 1 single component here called `<Home />`. Click into this component to begin exploring.
+- **Backend Framework**: Django, a high-level Python web framework.
+- **Database**: PostgreSQL, a powerful open-source relational database.
+- **Frontend**: HTML, CSS, JavaScript, and Bootstrap for a responsive and visually appealing design.
+- **Version Control**: Git and GitHub for source code management.
+- **Deployment**: [Hosting Platform], where your website is hosted.
 
-To add MORE routes to your project, see [this doc](https://nextjs.org/docs/basic-features/pages).
+## Project Setup
 
-Inside of the `styles/` directly you'll find find a global CSS file. This just includes a basic reset, as well as a couple of classes we use throughout the project.
+1. Clone the repository:
 
-Inside of the `components/` directory you'll find all of the good stuff. The `components/home/` directory houses the majority of what you'll like want to edit
+   ```bash
+   git clone <repository-url>
+   cd personal-website-backend-dev
+   ```
 
-## Styling
+2. Create a virtual environment (optional but recommended):
 
-Global styling (colors mainly) are defined using CSS variables in the `styles/globals.css` file.
+   ```bash
+   python -m venv myenv
+   source myenv/bin/activate  # On Windows, use `myenv\Scripts\activate`
+   ```
 
-```
-  --background: rgb(17, 17, 17);
-  --bg-opaque: rgb(17, 17, 17, 0.25);
-  --background-light: rgb(35, 35, 35);
-  --background-dark: rgb(8, 8, 8);
+3. Install project dependencies:
 
-  --text: rgb(235, 236, 243);
-  --brand: rgb(10, 255, 157);
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-  --text-xs: 1.6rem;
-  --text-sm: 1.8rem;
-  --text-md: 2.2rem;
-  --text-lg: 3.6rem;
-  --text-xl: 5.6rem;
-  --text-2xl: 9.6rem;
-```
+4. Initialize the database (assuming PostgreSQL is set up):
 
-The first six variables are the colors for the app. The last six are font sizes. Play around with these a bit to start making it your own.
+   ```bash
+   python manage.py migrate
+   ```
 
-## More info
+5. Start the development server:
 
-That's the basics! If you're comfortable digging in yourself, then you should be set.
+   ```bash
+   python manage.py runserver
+   ```
 
-Want a deeper walkthrough??
+## Usage
 
-[WATCH THE TUTORIAL VIDEO](https://youtu.be/hu-XLI3bFX8)
+1. Access your personal website by navigating to `http://localhost:8000`.
+
+2. Explore your portfolio, read your blog posts, and download your resume.
+
+3. Use the contact information provided to get in touch with you for professional inquiries or collaboration.
+
+## Portfolio
+
+In the "Portfolio" section, you can showcase your backend development and Python engineering projects. Provide detailed descriptions, project highlights, and links to GitHub repositories or live demos when available.
+
+## Blog
+
+Write and publish blog posts to share your knowledge and insights with the community. Organize your blog posts by categories and tags for easy navigation. Encourage visitors to engage with your content by leaving comments and feedback.
+
+## Contact
+
+For professional inquiries or collaboration opportunities, you can be reached at [wesongamori@gmail.com]. Connect with [Mori Isaac] on LinkedIn, explore your GitHub repositories, or follow .
+
+## Contributing
+
+If you'd like to contribute to the development of this personal website or report any issues, please refer to the guidelines in the `CONTRIBUTING.md` file.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
+
+Thank you for visiting [Your Name]'s personal website. Feel free to explore, learn more about [Mori]'s work, and get in touch for any inquiries or collaborations.
